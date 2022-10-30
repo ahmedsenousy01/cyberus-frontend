@@ -1,0 +1,15 @@
+a, a:hover {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.add-photo-btn {
+  border: none;
+  padding: 0px 10px;
+  background-color: #CDE6FA;
+  transition: .5s all;
+
+  &:hover {
+    background-color: #80b9e7;
+  }
+}
