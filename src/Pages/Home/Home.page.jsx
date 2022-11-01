@@ -24,14 +24,14 @@ const Home = ({ posts }) => {
 		<div className="container py-5">
 			<Divider title="public" />
 
-			<div className="public row">
+			<div className="public row gy-3">
 				{apiPosts.map((post, idx) => (
 					<PublicPost key={`public-post-${idx}`} post={post} />
 				))}
 			</div>
 			<Divider title="local" />
 
-			<div className="local row">
+			<div className="local row gy-3">
 				{posts != false ? (
 					posts.map((post, idx) => (
 						<LocalPost key={`local-post-${idx}`} post={post} />
