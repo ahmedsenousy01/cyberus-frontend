@@ -4,9 +4,9 @@ import { removePost, toggleLikePost } from '../../Redux/post/post.actions'
 import { connect } from 'react-redux';
 import profilePic from '../../Assets/profile pic new.jfif';
 
-const LocalPost = ({ post, removePost, toggleLikePost }) => {
+const LocalPost = ({ post, removePost, toggleLikePost, extraCssClasses }) => {
 	return (
-		<div className="col-lg-3 col-md-4 col-sm-6">
+		<div className={`col-lg-3 col-md-4 col-sm-6 ${extraCssClasses}`}>
 			<div className="d-flex flex-column post rounded-3 border border-1">
 				<div className="post-header px-2">
 					<div className="row justify-content-between align-items-center">

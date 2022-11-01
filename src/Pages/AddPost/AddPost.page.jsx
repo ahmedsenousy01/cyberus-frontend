@@ -75,7 +75,7 @@ const AddPost = ({ addPost }) => {
 			<div className="row">
 				<div className="img-preview col-md-7">
 					<div className="d-flex h-100 w-100 justify-content-center align-items-center">
-						<LocalPost post={post} />
+						<LocalPost post={post} extraCssClasses="w-50"/>
 					</div>
 				</div>
 				<div className="col-md-5">
@@ -84,7 +84,9 @@ const AddPost = ({ addPost }) => {
 						className="d-flex flex-column justify-content-center align-items-center vh-100"
 					>
 						{errors !== '' ? (
-						<div className="bg-danger text-center p-2 text-white rounded-3 w-50 mx-auto">{errors}</div>
+							<div className="bg-danger text-center p-2 text-white rounded-3 w-50 mx-auto">
+								{errors}
+							</div>
 						) : (
 							''
 						)}
