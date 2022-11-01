@@ -1,0 +1,41 @@
+svg {
+  cursor: pointer;
+}
+
+.delete-btn {
+  width: 15px;
+  height: 15px;
+}
+
+.post {
+  width: 300px;
+  background-color: rgba(240,240,240,0.8);
+}
+
+.post-header .img-container img {
+  width: 40px;
+  height: 33px;
+}
+
+.username {
+  font-weight: 500;
+}
+
+ul > li {
+  margin-left: 5px;
+}
+
+.post-body {
+  height: 250px;
+}
+
+.like {
+  bottom: 5%;
+  right: 5%;
+  width: 30px;
+  height: 30px;
+}
+
+.likesCount {
+  font-size: 13px;
+}

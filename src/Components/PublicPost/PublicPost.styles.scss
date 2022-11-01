@@ -4,6 +4,7 @@ svg {
 
 .post {
   width: 300px;
+  background-color: rgba(240,240,240,0.8);
 }
 
 .post-header .img-container {
@@ -11,17 +12,25 @@ svg {
   height: 30px;
 }
 
+.username {
+  font-weight: 500;
+}
+
 ul > li {
   margin-left: 5px;
 }
 
 .post-body {
-  height: 250px;
+  height: 300px;
 }
 
 .like {
-  bottom: 10%;
-  right: 10%;
+  bottom: 5%;
+  right: 5%;
   width: 30px;
   height: 30px;
+}
+
+.likesCount {
+  font-size: 13px;
 }
